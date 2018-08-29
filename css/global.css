@@ -1,0 +1,76 @@
+body {
+  background-color: #DCDCDC;
+}
+
+.navbar-expand-lg navbar-light {
+  background-color: black;
+
+}
+
+.col-lg-8 {
+  background-color: white;
+  border-radius: 25px;
+  text-align: justify;
+}
+
+.images {
+  border-radius: 25px;
+}
+
+.container {
+  margin-left: auto;
+  margin-top: 50px;
+
+}
+
+nav {
+    background-color: black;
+}
+
+.gallery {
+  border: 10px solid #000;
+  padding: 0;
+}
+
+.videotitle {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  border-bottom: 315px;
+}
+
+.secondvid {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.videos2 {
+  margin-left: 23px;
+}
+
+h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+
+.images {
+  max-width:100%;
+max-height:100%;
+margin-left: 0px;
+}
+
+.container {
+margin-left: 0px;
+
+  }
+
+.secondvid {
+  margin-left: auto;
+  max-width:100%;
+max-height:100%;
+}
+
+.videos2 {
+  margin-left: auto;
+
+}
